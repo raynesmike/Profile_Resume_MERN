@@ -1,7 +1,7 @@
 const jwt = require('jsonwebtoken');
 const config = require('config');
 
-/*middleware function will just have access to request adn response cycle
+/*middleware function will just have access to request and response cycle
     next is a callback/follow-up function that will call the next midwarefunction
 */
 module.exports = function(req, res, next) {
